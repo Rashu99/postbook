@@ -10,7 +10,9 @@ class Nav extends Component {
     return (
       <div className="outer">
         <div className="text-right ls">
-          <button className="btn btn-primary margin-left">LogIn</button>
+          <a className="btn btn-primary margin-left" href="/login">
+            LogIn
+          </a>
           <button className="btn btn-primary margin-left">SignUp</button>
         </div>
       </div>
